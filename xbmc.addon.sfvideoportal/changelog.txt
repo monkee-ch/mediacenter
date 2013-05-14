@@ -1,0 +1,28 @@
+
+version 0.6.0
+  * adapted html parsing to new srf website
+    (patch by francois marbot, thank you!)
+  * minor improvements
+
+version 0.5.0
+
+  * removed calls to obsolete xbmc.output() function.
+  * removed obsolete AddonStats dependency -> more speed
+  * minor improvements & anonymous (check source!) usage statistics
+
+version 0.4.0
+
+  * new menu option: tv shows sorted by topic
+  * new menu option: channels
+  * parse and start time of clips to xbmc, specially interesting in channels view,
+    end-time can not yet be passed to xbmc 
+  * fixed issue with "missed shows" where it happened that the
+    shows for a wrong date were displayed
+
+version 0.3.0
+
+  * first official release
+
+version 0.1.0
+
+  * initial release
