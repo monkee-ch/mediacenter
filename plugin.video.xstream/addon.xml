@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.xstream"
+	name="xStream"
+	version="2.0.16"
+	provider-name="MaxMustermann">
+  <requires>
+    <import addon="script.module.urlresolver" version="1.0.0" />
+	<import addon="script.module.t0mm0.common" version="1.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">xStream</summary>
+    <description lang="de">xStream ist ein Plugin, welches mit eigenen Plugins erweitert werden kann. Hiermit kann man Filme, Serien, etc. per Stream anschauen</description>
+    <summary lang="en">xStream</summary>
+    <description lang="en">Plugin to watch streams from various film an series sites.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

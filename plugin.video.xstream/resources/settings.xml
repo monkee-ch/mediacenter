@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings> 
+    <category label="30021">
+        <!--<setting label="30021" type="lsep"/>-->
+        <setting id="debug" type="bool" label="30000" default="false"/>
+        <setting id="playerType" type="enum" values="Auto|MPlayer|DVDPlayer" label="30001" default="2"/>
+        <setting id="prefLanguage" type="enum" values="ger|eng|all" label="30002" default="2"/>
+        <setting type="sep" />
+    </category> 
+    <category label="30022">
+        <!--<setting label="30022" type="lsep"/>-->
+        <setting id="plugin_anime_proxer_me" type="bool" label="Anime.Proxer.Me" default="false"/>
+        <setting id="plugin_anime_stream24_com" type="bool" label="Anime-Stream24.com" default="false"/>
+        <setting id="plugin_br_online_de" type="bool" label="Br-Online.de" default="false"/>
+        <setting id="plugin_bundesliga_de" type="bool" label="Bundesliga.de" default="false"/>
+        <setting id="plugin_burning_series_org" type="bool" label="Burning-Series.org" default="false"/>
+        <setting id="plugin_gstream_in" type="bool" label="G-Stream.in" default="false"/>
+        <setting id="plugin_kino_de" type="bool" label="Kino.de" default="false"/>
+        <setting id="plugin_kinokiste_com" type="bool" label="KinoKiste.com" default="false"/>
+        <setting id="plugin_kinox_to" type="bool" label="Kinox.to" default="false"/>
+        <setting id="plugin_movie2k_to" type="bool" label="Movie2k.to" default="false"/>
+        <setting id="plugin_moviemaze_de" type="bool" label="Moviemaze.de" default="false"/>
+        <setting id="plugin_mtv_de" type="bool" label="MTV.de" default="false"/>
+        <setting id="plugin_radiotime_com" type="bool" label="RadioTime.com" default="false"/>
+        <setting id="plugin_serienjunkies_org" type="bool" label="Serienjunkies.org" default="false"/>
+        <setting id="plugin_shoutcast_com" type="bool" label="Shoucast.com" default="false"/>
+        <setting id="plugin_simpsons_to" type="bool" label="Simpsons.to" default="false"/>
+        <setting id="plugin_southpark_de" type="bool" label="Souhtpark.de" default="false"/>       
+        <setting id="plugin_ustream_tv" type="bool" label="Ustream.tv" default="false"/>
+        <setting type="sep" />
+    </category>
+    <category label="30023">
+        <!--<setting label="30023" type="lsep"/>-->
+        <setting id="jd_enabled" type="bool" label="30071" default="false"/>
+        <setting id="jd_host" type="text" label="30072" default="127.0.0.1"/>
+        <setting id="jd_port" type="text" label="30073" default="10025"/>
+        <setting id="jd_automatic_start" type="bool" label="30074" default="true"/>
+        <setting id="jd_grabber" type="bool" label="30075" default="false"/>
+        <setting type="sep" />
+    </category> 
+</settings>
