@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.mindmadetools"
+       name="mindmade.org addon tools"
+       version="0.2.2"
+       provider-name="Andreas Wetzel [xbmc@mindmade.org]">
+  <requires>
+    <import addon="xbmc.python" version="1.0" />
+    <import addon="script.module.simplejson" version="2.0.10" />
+  </requires>
+  <extension point="xbmc.python.module"
+            library="lib">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>mindmade.org addon tools</summary>
+    <description>
+        tool library for xbmc addons.
+    </description>
+  </extension>
+</addon>
