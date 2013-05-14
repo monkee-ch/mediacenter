@@ -65,13 +65,13 @@
 
 <addon id="xbmc.repo.monkeemedia.ch"
         name="Monkeemedia.ch Software"
-        version="0.0.5"
+        version="0.0.6"
         provider-name="monkeemedia.ch">
     <extension point="xbmc.addon.repository"
         name="Monkeemedia.ch Software">
         <info>https://raw.github.com/monkee-ch/mediacenter/master/addons.xml</info>
 		<checksum>https://raw.github.com/monkee-ch/mediacenter/master/addons.xml.md5</checksum>
-		<datadir zip="false">https://raw.github.com/monkee-ch/mediacenter/master</datadir>
+		<datadir zip="true">https://github.com/monkee-ch/mediacenter/archive/master.zip</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Monkeemedia.ch approved Software</summary>
