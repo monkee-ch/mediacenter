@@ -1,28 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.sf-videoportal"
-       name="SRF Videoportal"
-       version="0.6.0"
-       provider-name="Andreas Wetzel [xbmc@mindmade.org]">
-  <requires>
-    <import addon="xbmc.python" version="1.0"/>
-	<import addon="script.module.simplejson" version="2.0.10"/>
-	<import addon="script.module.beautifulsoup" version="3.0.8"/>
-	<import addon="script.module.mindmadetools" version="0.2.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="videoportal.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>SRF Videoportal</summary>
-    <description>
-      This plug-in allows access to the content of the SRF Videoportal (http://http://www.srf.ch/player/tv).
-    </description>
-  </extension>
-</addon>
-
 <addon id="plugin.video.xstream"
 	name="xStream"
 	version="2.0.16"
@@ -59,6 +36,29 @@
     <summary>mindmade.org addon tools</summary>
     <description>
         tool library for xbmc addons.
+    </description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sf-videoportal"
+       name="SRF Videoportal"
+       version="0.6.0"
+       provider-name="Andreas Wetzel [xbmc@mindmade.org]">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+	<import addon="script.module.simplejson" version="2.0.10"/>
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+	<import addon="script.module.mindmadetools" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="videoportal.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>SRF Videoportal</summary>
+    <description>
+      This plug-in allows access to the content of the SRF Videoportal (http://http://www.srf.ch/player/tv).
     </description>
   </extension>
 </addon>
