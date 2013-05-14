@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.sf-videoportal"
+       name="SRF Videoportal"
+       version="0.6.0"
+       provider-name="Andreas Wetzel [xbmc@mindmade.org]">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+	<import addon="script.module.simplejson" version="2.0.10"/>
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+	<import addon="script.module.mindmadetools" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="videoportal.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>SRF Videoportal</summary>
+    <description>
+      This plug-in allows access to the content of the SRF Videoportal (http://http://www.srf.ch/player/tv).
+    </description>
+  </extension>
+</addon>
+
 <addon id="plugin.video.xstream"
 	name="xStream"
 	version="2.0.16"
@@ -22,13 +45,13 @@
 
 <addon id="xbmc.repo.monkeemedia.ch"
         name="monkeemedia.ch repository"
-        version="0.0.3"
+        version="0.0.4"
         provider-name="monkeemedia.ch">
     <extension point="xbmc.addon.repository"
         name="monkeemedia.ch Add-on Repository">
-        <info>http://content.wuala.com/contents/autobaderborn/xbmc.de/addons/xbmc.repo.xbmc.de/addons.xml?dl=1</info>
-		<checksum>http://content.wuala.com/contents/autobaderborn/xbmc.de/addons/xbmc.repo.xbmc.de/addons.xml.md5?dl=1</checksum>
-		<datadir zip="false">https://github.com/monkee-ch/xbmc-addon-sfvideoportal.git</datadir>
+        <info>https://raw.github.com/monkee-ch/mediacenter/master/addons.xml</info>
+		<checksum>https://raw.github.com/monkee-ch/mediacenter/master/addons.xml.md5</checksum>
+		<datadir zip="false">https://github.com/monkee-ch/mediacenter.git</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>monkeemedia.cd Add-ons for XBMC</summary>
