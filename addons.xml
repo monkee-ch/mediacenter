@@ -20,6 +20,33 @@
   </extension>
 </addon>
 
+<addon
+  id="skin.monkee"
+  version="0.3.1"
+  name="Monkeemedia 1.0"
+  provider-name="monkeemedia.ch, monkee.ch">
+  <requires>
+    <import addon="xbmc.gui" version="5.3.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en">Monkeemedia default Skin</summary>
+     <summary lang="de">Monkeemedia Standard Thema</summary>
+
+    <description lang="de">Der Monkeeemdia Skin basiert auf Conflunce dem Standardskin ab Kodi 14.0. Er ist eine Kombination mehrerer unterschiedlicher Skin-Konzepte und versucht dabei die besten Ideen zu kombinieren, um einen einfachen Einstieg für neue Kodi-Nutzer zu ermöglichen.</description>
+    <description lang="en">Confluence is the default skin for Kodi 14.0 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
+    <disclaimer lang="de">Monkeemedia ist der Standard-Skin auf dieser Box. Die Deinstallation kann zu unerwünschten Nebeneffekten führen. Kodi Standard ist Confluence</disclaimer>
+    <disclaimer lang="en">Monkeemedia is the default skin of this box, removing it may cause issues. Kodi Standard is Confluence</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.module.mindmadetools"
        name="mindmade.org addon tools"
        version="0.2.2"
@@ -67,10 +94,12 @@
         name="Monkeemedia.ch Software"
         version="0.0.14"
         provider-name="monkeemedia.ch">
- <extension point="xbmc.addon.repository" name="Monkeemedia.ch Software">
+ <extension point="xbmc.addon.repository"
+      name="Monkeemedia.ch Software">
         <info>https://raw.githubusercontent.com/monkee-ch/mediacenter/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/monkee-ch/mediacenter/master/addons.xml.md5</checksum>
         <datadir zip="false">https://github.com/monkee-ch/mediacenter</datadir>
+
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Monkeemedia.ch approved Software</summary>
@@ -79,22 +108,4 @@
         <platform>all</platform>
     </extension>
 </addon>
-
-<addon id="skin.monkee"
-        name="Monkeemedia Skin"
-        version="0.1.1"
-        provider-name="monkeemedia.ch">
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  
-    <extension point="xbmc.addon.metadata">
-        <summary>Monkeemedia.ch Standard Skin</summary>
-        <description>Monkeemedia Stndard Skin</description>
-        <disclaimer>No Risk! No Fun!</disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-
 </addons>
