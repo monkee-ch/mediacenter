@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="xbmc.repo.monkeemedia.ch"
         name="Monkeemedia.ch Software"
-        version="0.0.12"
+        version="0.0.13"
         provider-name="monkeemedia.ch">
-    <extension point="xbmc.addon.repository"
-        name="Monkeemedia.ch Software">
-        <info>http://monkee-cmc.googlecode.com/git/addons.xml</info>
-		<checksum>http://monkee-cmc.googlecode.com/git/addons.xml.md5</checksum>
-		<datadir zip="false">http://monkee-cmc.googlecode.com/git</datadir>
+ <extension point="xbmc.addon.repository"
+      name="Monkeemedia.ch Software">
+        <info>https://raw.githubusercontent.com/monkee-ch/mediacenter/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/monkee-ch/mediacenter/master/addons.xml.md5</checksum>
+                <datadir zip="false">https://raw.githubusercontent.com/monkee-ch/mediacenter/master</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Monkeemedia.ch approved Software</summary>
